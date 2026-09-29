@@ -1,0 +1,34 @@
+comparison,detail,dataset,metric,difference,ci_low,ci_high,p_value
+RQ2: best general-purpose - best biomedical,LLaVA-1.6 vs Med-Flamingo,NASA OSDR (Inspiration4),balanced_accuracy,0.15625,0.01041666666666674,0.29166666666666663,0.009
+RQ2: best general-purpose - best biomedical,LLaVA-1.6 vs Med-Flamingo,NASA OSDR (Inspiration4),mcc,0.2992550286758186,0.11749230859666582,0.5,0.0
+linear probe - zero shot,CLIP,NASA OSDR (Inspiration4),balanced_accuracy,0.17708333333333337,0.07291666666666674,0.29166666666666663,0.0
+linear probe - zero shot,BLIP-2,NASA OSDR (Inspiration4),balanced_accuracy,0.25,0.1875,0.3125,0.0
+linear probe - zero shot,LLaVA-1.6,NASA OSDR (Inspiration4),balanced_accuracy,0.34375,0.21875,0.45833333333333326,0.0
+linear probe - zero shot,Qwen2.5-VL,NASA OSDR (Inspiration4),balanced_accuracy,0.19791666666666674,0.11458333333333326,0.29166666666666674,0.0
+linear probe - zero shot,BiomedCLIP,NASA OSDR (Inspiration4),balanced_accuracy,0.09375,-0.08333333333333337,0.27083333333333326,0.388
+linear probe - zero shot,Med-Flamingo,NASA OSDR (Inspiration4),balanced_accuracy,0.0625,0.0,0.15625,0.1
+linear probe - zero shot,BioViL-T,NASA OSDR (Inspiration4),balanced_accuracy,0.052083333333333315,-0.04166666666666663,0.13541666666666663,0.271
+linear probe - zero shot,CheXagent,NASA OSDR (Inspiration4),balanced_accuracy,0.2187500000000001,0.0625,0.3854166666666666,0.008
+best VLM probe - raw-feature ceiling,LLaVA-1.6 vs logistic regression,NASA OSDR (Inspiration4),balanced_accuracy,0.07291666666666674,-0.15625,0.34375,0.56
+RQ2: best general-purpose - best biomedical,BLIP-2 vs BiomedCLIP,NASA GeneLab (OSD-174),balanced_accuracy,0.0,-0.07499999999999996,0.07500000000000007,1.0
+RQ2: best general-purpose - best biomedical,BLIP-2 vs BiomedCLIP,NASA GeneLab (OSD-174),mcc,-0.03598386489381322,-0.1915149256166579,0.14077136173209354,0.722
+linear probe - zero shot,CLIP,NASA GeneLab (OSD-174),balanced_accuracy,0.26249999999999996,0.13749999999999996,0.38749999999999996,0.0
+linear probe - zero shot,BLIP-2,NASA GeneLab (OSD-174),balanced_accuracy,0.30000000000000004,0.1875,0.4,0.0
+linear probe - zero shot,LLaVA-1.6,NASA GeneLab (OSD-174),balanced_accuracy,0.21250000000000002,0.125,0.30000000000000004,0.0
+linear probe - zero shot,Qwen2.5-VL,NASA GeneLab (OSD-174),balanced_accuracy,0.23750000000000004,0.125,0.36250000000000004,0.0
+linear probe - zero shot,BiomedCLIP,NASA GeneLab (OSD-174),balanced_accuracy,0.30000000000000004,0.17500000000000004,0.4125000000000001,0.0
+linear probe - zero shot,Med-Flamingo,NASA GeneLab (OSD-174),balanced_accuracy,0.3125,0.19999999999999996,0.425,0.0
+linear probe - zero shot,BioViL-T,NASA GeneLab (OSD-174),balanced_accuracy,5.551115123125783e-17,-0.062499999999999944,0.050000000000000044,0.924
+linear probe - zero shot,CheXagent,NASA GeneLab (OSD-174),balanced_accuracy,0.29999999999999993,0.08750000000000002,0.5,0.007
+best VLM probe - raw-feature ceiling,BLIP-2 vs gradient boosting,NASA GeneLab (OSD-174),balanced_accuracy,0.0625,-0.0625,0.19999999999999996,0.386
+RQ2: best general-purpose - best biomedical,Qwen2.5-VL vs CheXagent,NASA OSDR bed rest (OSD-370),balanced_accuracy,-0.014285714285714346,-0.19242857142857145,0.13900837014647752,0.94
+RQ2: best general-purpose - best biomedical,Qwen2.5-VL vs CheXagent,NASA OSDR bed rest (OSD-370),mcc,-0.032841295323905006,-0.4058912083554576,0.2862592619702243,0.932
+linear probe - zero shot,CLIP,NASA OSDR bed rest (OSD-370),balanced_accuracy,-0.1085714285714286,-0.22593656156156156,-0.0017466329966330288,0.046
+linear probe - zero shot,BLIP-2,NASA OSDR bed rest (OSD-370),balanced_accuracy,-0.037142857142857144,-0.18312001267536657,0.08573319327731085,0.667
+linear probe - zero shot,LLaVA-1.6,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.04285714285714293,-0.08846734892787526,0.18833116883116874,0.548
+linear probe - zero shot,Qwen2.5-VL,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.09142857142857141,-0.07836700336700335,0.2669906889386188,0.308
+linear probe - zero shot,BiomedCLIP,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.06285714285714283,-0.0650297619047619,0.2018760172053011,0.298
+linear probe - zero shot,Med-Flamingo,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.04285714285714293,-0.07737677809388337,0.18560915527827285,0.56
+linear probe - zero shot,BioViL-T,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.02285714285714291,-0.05000675675675675,0.09539975831094254,0.531
+linear probe - zero shot,CheXagent,NASA OSDR bed rest (OSD-370),balanced_accuracy,0.07142857142857151,-0.09895475832975827,0.24999999999999994,0.439
+best VLM probe - raw-feature ceiling,CheXagent vs logistic regression,NASA OSDR bed rest (OSD-370),balanced_accuracy,-0.1885714285714285,-0.3189078309078309,-0.049262938348416364,0.008

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "med_000",
+    "image_path": "data/benchmark/images/medical/pneumonia_normal_0.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "No",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 0,
+      "label_name": "normal",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_001",
+    "image_path": "data/benchmark/images/medical/pneumonia_normal_1.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "No",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 0,
+      "label_name": "normal",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_002",
+    "image_path": "data/benchmark/images/medical/pneumonia_normal_2.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "No",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 0,
+      "label_name": "normal",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_003",
+    "image_path": "data/benchmark/images/medical/pneumonia_normal_3.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "No",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 0,
+      "label_name": "normal",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_004",
+    "image_path": "data/benchmark/images/medical/pneumonia_normal_4.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "No",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 0,
+      "label_name": "normal",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_005",
+    "image_path": "data/benchmark/images/medical/pneumonia_pneumonia_5.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "Yes",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 1,
+      "label_name": "pneumonia",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_006",
+    "image_path": "data/benchmark/images/medical/pneumonia_pneumonia_6.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "Yes",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 1,
+      "label_name": "pneumonia",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_007",
+    "image_path": "data/benchmark/images/medical/pneumonia_pneumonia_7.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "Yes",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 1,
+      "label_name": "pneumonia",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_008",
+    "image_path": "data/benchmark/images/medical/pneumonia_pneumonia_8.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "Yes",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 1,
+      "label_name": "pneumonia",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "med_009",
+    "image_path": "data/benchmark/images/medical/pneumonia_pneumonia_9.png",
+    "domain": "medical",
+    "task_type": "classification",
+    "question": "Based on this chest X-ray image, is there visual evidence of pneumonia? Respond with either 'Yes' or 'No' and explain your clinical reasoning.",
+    "ground_truth": "Yes",
+    "metadata": {
+      "dataset": "PneumoniaMNIST",
+      "label_code": 1,
+      "label_name": "pneumonia",
+      "dimensions": "224x224"
+    }
+  },
+  {
+    "id": "cel_000",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA07081.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Mars Rover Studies Soil on Mars. Description: Mars Rover Studies Soil on Mars",
+    "metadata": {
+      "nasa_id": "PIA07081",
+      "title": "Mars Rover Studies Soil on Mars",
+      "description": "Mars Rover Studies Soil on Mars",
+      "date_created": "2004-11-30T21:29:24Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA07081/PIA07081~small.jpg"
+    }
+  },
+  {
+    "id": "cel_001",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA07108.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Frost on Mars Rover Opportunity. Description: Frost on Mars Rover Opportunity",
+    "metadata": {
+      "nasa_id": "PIA07108",
+      "title": "Frost on Mars Rover Opportunity",
+      "description": "Frost on Mars Rover Opportunity",
+      "date_created": "2004-12-13T16:58:00Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA07108/PIA07108~thumb.jpg"
+    }
+  },
+  {
+    "id": "cel_002",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA04413.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Artist Concept of Rover on Mars. Description: An artist concept portrays a NASA Mars Exploration Rover on the surface of Mars. Two rovers were launched in 2003 and arrived at sites on Mars in January 2004.",
+    "metadata": {
+      "nasa_id": "PIA04413",
+      "title": "Artist Concept of Rover on Mars",
+      "description": "An artist concept portrays a NASA Mars Exploration Rover on the surface of Mars. Two rovers were launched in 2003 and arrived at sites on Mars in January 2004.",
+      "date_created": "2003-02-26T21:03:33Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA04413/PIA04413~small.jpg"
+    }
+  },
+  {
+    "id": "cel_003",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA04825.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Mars Exploration Rover. Description: Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+    "metadata": {
+      "nasa_id": "PIA04825",
+      "title": "Mars Exploration Rover",
+      "description": "Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+      "date_created": "2003-10-30T21:34:06Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA04825/PIA04825~thumb.jpg"
+    }
+  },
+  {
+    "id": "cel_004",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA04824.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Mars Exploration Rover. Description: Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+    "metadata": {
+      "nasa_id": "PIA04824",
+      "title": "Mars Exploration Rover",
+      "description": "Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+      "date_created": "2003-10-30T21:34:03Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA04824/PIA04824~small.jpg"
+    }
+  },
+  {
+    "id": "cel_005",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA04823.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Mars Exploration Rover. Description: Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+    "metadata": {
+      "nasa_id": "PIA04823",
+      "title": "Mars Exploration Rover",
+      "description": "Mars Exploration Rover MER spacecraft -- areoshell encapsulating the rover and lander plus cruise stage.",
+      "date_created": "2003-10-30T21:34:01Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA04823/PIA04823~small.jpg"
+    }
+  },
+  {
+    "id": "cel_006",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA22103.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Cameras on Mars 2020 Rover. Description: This image presents a selection of the 23 cameras on NASA's 2020 Mars rover. Many are improved versions of the cameras on the Curiosity rover, with a few new additions as well.  https://photojournal.jpl.nasa.gov/catalog/PIA22103",
+    "metadata": {
+      "nasa_id": "PIA22103",
+      "title": "Cameras on Mars 2020 Rover",
+      "description": "This image presents a selection of the 23 cameras on NASA's 2020 Mars rover. Many are improved versions of the cameras on the Curiosity rover, with a few new additions as well.  https://photojournal.jpl.nasa.gov/catalog/PIA22103",
+      "date_created": "2017-10-31T00:00:00Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA22103/PIA22103~small.jpg"
+    }
+  },
+  {
+    "id": "cel_007",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA18405.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Payload for NASA Mars 2020 Rover. Description: This diagram shows components of the investigations payload for NASA Mars 2020 rover mission.",
+    "metadata": {
+      "nasa_id": "PIA18405",
+      "title": "Payload for NASA Mars 2020 Rover",
+      "description": "This diagram shows components of the investigations payload for NASA Mars 2020 rover mission.",
+      "date_created": "2014-07-31T17:33:59Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA18405/PIA18405~small.jpg"
+    }
+  },
+  {
+    "id": "cel_008",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA15115.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Dusty Mars Rover Self Portrait. Description: This mosaic of images was taken by NASA Mars Exploration Rover Opportunity during December of 2011. The accumulation of dust reduces the rover power supply, and the rover mobility is limited until the winter is over or wind cleans the panels.",
+    "metadata": {
+      "nasa_id": "PIA15115",
+      "title": "Dusty Mars Rover Self Portrait",
+      "description": "This mosaic of images was taken by NASA Mars Exploration Rover Opportunity during December of 2011. The accumulation of dust reduces the rover power supply, and the rover mobility is limited until the winter is over or wind cleans the panels.",
+      "date_created": "2012-02-17T17:59:14Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA15115/PIA15115~small.jpg"
+    }
+  },
+  {
+    "id": "cel_009",
+    "image_path": "data/benchmark/images/celestial/nasa_celestial_PIA04822.jpg",
+    "domain": "celestial",
+    "task_type": "qa",
+    "question": "Describe what is happening or what features are visible in this Mars planetary science image.",
+    "ground_truth": "Title: Mars Exploration Rover. Description: Mars Exploration Rover MER spacecraft. This image shows the aeroshell, which includes the backshell as well as the heatshield.",
+    "metadata": {
+      "nasa_id": "PIA04822",
+      "title": "Mars Exploration Rover",
+      "description": "Mars Exploration Rover MER spacecraft. This image shows the aeroshell, which includes the backshell as well as the heatshield.",
+      "date_created": "2003-10-30T21:33:59Z",
+      "source_url": "https://images-assets.nasa.gov/image/PIA04822/PIA04822~thumb.jpg"
+    }
+  }
+]

@@ -1,0 +1,31 @@
+# Crew data never goes in git — much of it is controlled-access.
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+# Rendered modalities: the heatmaps and the manifests' `physio` arrays are
+# per-sample crew measurements, just z-scored. Same rule applies.
+data/vlm_astro/*
+!data/**/.gitkeep
+!data/raw/EXAMPLE_DATA_README.md
+
+# Run output: keep the directory skeleton, not the artefacts.
+results/*.csv
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
